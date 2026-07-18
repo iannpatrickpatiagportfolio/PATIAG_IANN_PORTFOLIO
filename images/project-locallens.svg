@@ -1,0 +1,27 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#FF715B"/>
+  <circle cx="230" cy="140" r="82" fill="#D8FF52"/>
+  <circle cx="1080" cy="640" r="110" fill="#4C6FFF"/>
+  <path d="M0 602C193 536 337 560 466 627C614 704 756 714 908 641C1014 591 1106 580 1200 606V760H0V602Z" fill="#17211C"/>
+  <rect x="416" y="47" width="368" height="666" rx="52" fill="#17211C" stroke="#F8F5EE" stroke-width="8"/>
+  <rect x="438" y="76" width="324" height="606" rx="34" fill="#F8F5EE"/>
+  <rect x="525" y="61" width="150" height="28" rx="14" fill="#17211C"/>
+  <text x="472" y="139" fill="#17211C" font-family="Arial, sans-serif" font-weight="800" font-size="28">LocalLens</text>
+  <circle cx="714" cy="127" r="17" fill="#D8FF52" stroke="#17211C" stroke-width="4"/>
+  <rect x="470" y="168" width="260" height="47" rx="23.5" fill="white" stroke="#17211C" stroke-width="3"/>
+  <circle cx="503" cy="191" r="8" stroke="#17211C" stroke-width="4"/>
+  <path d="M509 197L519 207" stroke="#17211C" stroke-width="4" stroke-linecap="round"/>
+  <rect x="470" y="244" width="260" height="196" rx="20" fill="#4C6FFF"/>
+  <path d="M470 370C516 320 548 345 583 322C627 293 666 310 730 259V440H470V370Z" fill="#D8FF52"/>
+  <path d="M523 355C523 330 543 310 568 310C593 310 613 330 613 355C613 387 568 417 568 417C568 417 523 387 523 355Z" fill="#FF715B" stroke="#17211C" stroke-width="4"/>
+  <circle cx="568" cy="355" r="12" fill="#17211C"/>
+  <rect x="470" y="465" width="260" height="92" rx="16" fill="white" stroke="#17211C" stroke-width="3"/>
+  <rect x="485" y="480" width="62" height="62" rx="12" fill="#FF715B"/>
+  <rect x="566" y="482" width="132" height="14" rx="7" fill="#17211C"/>
+  <rect x="566" y="510" width="98" height="10" rx="5" fill="#9EA39F"/>
+  <rect x="566" y="532" width="72" height="10" rx="5" fill="#D4D6D4"/>
+  <rect x="470" y="576" width="260" height="70" rx="16" fill="#D8FF52" stroke="#17211C" stroke-width="3"/>
+  <text x="498" y="619" fill="#17211C" font-family="Arial, sans-serif" font-weight="800" font-size="18">Explore nearby</text>
+  <circle cx="686" cy="610" r="19" fill="#17211C"/>
+  <path d="M678 610H694M688 604L694 610L688 616" stroke="#D8FF52" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

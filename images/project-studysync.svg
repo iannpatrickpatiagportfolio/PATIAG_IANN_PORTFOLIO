@@ -1,0 +1,32 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#D8FF52"/>
+  <rect x="85" y="70" width="1030" height="620" rx="22" fill="#F8F5EE" stroke="#17211C" stroke-width="8"/>
+  <rect x="85" y="70" width="1030" height="78" rx="22" fill="#17211C"/>
+  <circle cx="132" cy="109" r="12" fill="#FF715B"/><circle cx="170" cy="109" r="12" fill="#D8FF52"/><circle cx="208" cy="109" r="12" fill="#4C6FFF"/>
+  <rect x="125" y="187" width="215" height="455" rx="14" fill="#17211C"/>
+  <rect x="161" y="228" width="113" height="18" rx="9" fill="#D8FF52"/>
+  <rect x="161" y="288" width="142" height="12" rx="6" fill="#F8F5EE" fill-opacity=".45"/>
+  <rect x="161" y="326" width="118" height="12" rx="6" fill="#F8F5EE" fill-opacity=".45"/>
+  <rect x="161" y="364" width="132" height="12" rx="6" fill="#F8F5EE" fill-opacity=".45"/>
+  <rect x="161" y="564" width="143" height="44" rx="22" fill="#FF715B"/>
+  <rect x="382" y="190" width="690" height="92" rx="14" fill="#4C6FFF"/>
+  <text x="420" y="232" fill="white" font-family="Arial, sans-serif" font-weight="700" font-size="25">Good morning, Iann.</text>
+  <text x="420" y="260" fill="white" fill-opacity=".75" font-family="Arial, sans-serif" font-size="14">You have three priorities today.</text>
+  <rect x="382" y="316" width="322" height="148" rx="14" fill="white" stroke="#17211C" stroke-width="4"/>
+  <rect x="732" y="316" width="340" height="148" rx="14" fill="#FF715B" stroke="#17211C" stroke-width="4"/>
+  <circle cx="442" cy="378" r="31" fill="#D8FF52" stroke="#17211C" stroke-width="4"/>
+  <path d="M427 378L438 389L459 365" stroke="#17211C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="490" y="353" width="144" height="17" rx="8.5" fill="#17211C"/>
+  <rect x="490" y="386" width="102" height="11" rx="5.5" fill="#A8ADA9"/>
+  <rect x="490" y="414" width="130" height="11" rx="5.5" fill="#D2D5D2"/>
+  <circle cx="793" cy="390" r="42" fill="#17211C"/>
+  <text x="775" y="400" fill="#D8FF52" font-family="Arial, sans-serif" font-weight="700" font-size="28">72</text>
+  <rect x="855" y="353" width="164" height="18" rx="9" fill="#17211C"/>
+  <rect x="855" y="389" width="117" height="12" rx="6" fill="#17211C" fill-opacity=".45"/>
+  <rect x="382" y="495" width="690" height="147" rx="14" fill="#E8E1D5"/>
+  <rect x="416" y="529" width="154" height="18" rx="9" fill="#17211C"/>
+  <rect x="416" y="574" width="112" height="34" rx="17" fill="#D8FF52" stroke="#17211C" stroke-width="3"/>
+  <rect x="545" y="574" width="112" height="34" rx="17" fill="#F8F5EE" stroke="#17211C" stroke-width="3"/>
+  <rect x="674" y="574" width="112" height="34" rx="17" fill="#F8F5EE" stroke="#17211C" stroke-width="3"/>
+  <path d="M845 602C875 538 914 525 953 558C989 589 1015 577 1040 535" stroke="#4C6FFF" stroke-width="10" stroke-linecap="round"/>
+</svg>

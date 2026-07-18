@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Iann Patrick Patiag — aspiring web developer, designer, and creative problem solver.">
+  <title>Iann Patrick Patiag | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark" aria-hidden="true">IP</span>
+        <span class="brand-text">Iann Patrick</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open navigation menu</span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> PORTFOLIO / 2026</p>
+          <h1>Iann Patrick<br><em>Patiag.</em></h1>
+          <p class="hero-intro">
+            I am an aspiring web developer who turns ideas into clean, useful, and memorable digital experiences.
+            I enjoy combining thoughtful design with practical code.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-stats" aria-label="Portfolio highlights">
+            <div><strong>03</strong><span>Featured projects</span></div>
+            <div><strong>05+</strong><span>Core skills</span></div>
+            <div><strong>100%</strong><span>Curious mindset</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="150">
+          <div class="portrait-frame">
+            <div class="portrait-label">CREATIVE<br>DEVELOPER</div>
+            <img src="images/profile-illustration.svg" alt="Stylized professional illustration representing Iann Patrick Patiag">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="status-card">
+              <span class="status-dot"></span>
+              Open to learning and collaboration
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section">
+        <span>SCROLL</span><i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading reveal">
+        <p class="section-number">01 / ABOUT</p>
+        <h2>Building with purpose,<br><em>learning by doing.</em></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-story reveal">
+          <p class="lead">
+            I am a student and emerging creative technologist interested in web development, interface design,
+            and the way technology can solve everyday problems.
+          </p>
+          <p>
+            My goal is to keep improving as a developer while creating experiences that feel simple, clear, and human.
+            I value curiosity, consistency, and collaboration—whether I am writing code, planning a design, or presenting an idea.
+          </p>
+          <blockquote>
+            "Good design should make the next step feel obvious."
+          </blockquote>
+        </div>
+
+        <div class="skills-panel reveal" data-delay="100">
+          <h3>Skills & strengths</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span>01</span><div><strong>HTML & CSS</strong><small>Semantic structure, responsive layouts</small></div></div>
+            <div class="skill-item"><span>02</span><div><strong>JavaScript</strong><small>Interaction, DOM basics, logic</small></div></div>
+            <div class="skill-item"><span>03</span><div><strong>UI Design</strong><small>Wireframes, color, typography</small></div></div>
+            <div class="skill-item"><span>04</span><div><strong>Communication</strong><small>Teamwork, presentations, documentation</small></div></div>
+            <div class="skill-item"><span>05</span><div><strong>Problem Solving</strong><small>Research, iteration, attention to detail</small></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="interest-strip reveal" aria-label="Interests">
+        <span>WEB DEVELOPMENT</span><i>✦</i><span>UI / UX</span><i>✦</i><span>CREATIVE CODING</span><i>✦</i><span>TECHNOLOGY</span><i>✦</i><span>CONTINUOUS LEARNING</span>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-number">02 / PROJECTS</p>
+        <h2>Selected ideas,<br><em>designed to be useful.</em></h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card reveal">
+          <a class="project-image" href="#contact" aria-label="Ask about StudySync project">
+            <img src="images/project-studysync.svg" alt="StudySync student dashboard interface preview">
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info">
+            <p class="project-index">PROJECT 01</p>
+            <h3>StudySync</h3>
+            <p>A focused study dashboard that helps students organize tasks, track subjects, and build better study habits in one calm workspace.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card project-card-reverse reveal">
+          <a class="project-image" href="#contact" aria-label="Ask about LocalLens project">
+            <img src="images/project-locallens.svg" alt="LocalLens community discovery mobile application preview">
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info">
+            <p class="project-index">PROJECT 02</p>
+            <h3>LocalLens</h3>
+            <p>A community discovery concept for finding nearby food, events, and small businesses through concise recommendations and visual maps.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>UI Design</li><li>Responsive</li><li>Prototype</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-image" href="#contact" aria-label="Ask about TaskTrail project">
+            <img src="images/project-tasktrail.svg" alt="TaskTrail productivity board interface preview">
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info">
+            <p class="project-index">PROJECT 03</p>
+            <h3>TaskTrail</h3>
+            <p>A lightweight project board that turns large goals into visible steps, helping small teams stay aligned without unnecessary complexity.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>Web App</li><li>UX</li><li>Planning</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="section-heading reveal">
+        <p class="section-number">03 / EXPERIENCE</p>
+        <h2>My learning path<br><em>and milestones.</em></h2>
+      </div>
+
+      <div class="timeline reveal">
+        <article class="timeline-item">
+          <div class="timeline-date">PRESENT</div>
+          <div class="timeline-content">
+            <p class="timeline-type">EDUCATION</p>
+            <h3>Bachelor's Degree / College Program</h3>
+            <p class="timeline-place">Your School or University</p>
+            <p>Studying technology, programming fundamentals, communication, and collaborative problem solving. Replace this text with your exact course, school, and expected graduation year.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">2025 — 2026</div>
+          <div class="timeline-content">
+            <p class="timeline-type">PRACTICAL EXPERIENCE</p>
+            <h3>Academic & Personal Web Projects</h3>
+            <p class="timeline-place">Independent / Team-Based</p>
+            <p>Planned and built responsive web pages, developed project concepts, presented solutions, and improved designs through feedback and iteration.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">ACHIEVEMENTS</div>
+          <div class="timeline-content">
+            <p class="timeline-type">CERTIFICATIONS & RECOGNITION</p>
+            <h3>Add Your Certifications Here</h3>
+            <p class="timeline-place">Course Provider / Organization</p>
+            <p>Examples: programming course certificates, academic awards, leadership recognition, competition participation, or school organization achievements.</p>
+          </div>
+        </article>
+      </div>
+
+      <a class="resume-banner reveal" href="mailto:your.email@example.com?subject=Resume%20Request">
+        <span>Need a copy of my full résumé?</span>
+        <strong>Request via email <span aria-hidden="true">↗</span></strong>
+      </a>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <p class="section-number">04 / CONTACT</p>
+          <h2>Have an idea?<br><em>Let's build it.</em></h2>
+          <p>I am always interested in opportunities to learn, collaborate, and create meaningful work.</p>
+          <a class="email-link" href="mailto:your.email@example.com">your.email@example.com <span aria-hidden="true">↗</span></a>
+
+          <div class="social-links" aria-label="Social media links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" data-delay="120" id="contact-form">
+          <div class="field-row">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Juan Dela Cruz" required>
+          </div>
+          <div class="field-row">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="hello@example.com" required>
+          </div>
+          <div class="field-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
+          </div>
+          <button class="button button-primary" type="submit">Send message <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="form-note" aria-live="polite">This form opens your email app. Update the email address in <code>script.js</code>.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">IP</span><span class="brand-text">Iann Patrick</span></a>
+      <p>Designed and coded from scratch.</p>
+    </div>
+    <p>© <span id="year">2026</span> Iann Patrick Patiag</p>
+    <a class="back-to-top" href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
