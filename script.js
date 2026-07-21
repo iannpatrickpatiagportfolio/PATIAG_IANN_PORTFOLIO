@@ -3,7 +3,7 @@ const navLinks = document.querySelector('.nav-links');
 const header = document.querySelector('.site-header');
 const contactForm = document.querySelector('#contact-form');
 const formNote = document.querySelector('#form-note');
-const portfolioEmail = 'your.email@example.com'; // Replace with your real email address.
+const portfolioEmail = 'patiagiann@gmail.com';
 
 menuButton.addEventListener('click', () => {
   const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
@@ -91,12 +91,6 @@ lightbox.addEventListener('close', () => {
 
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
-
-  if (portfolioEmail === 'your.email@example.com') {
-    formNote.textContent = 'Replace your.email@example.com in script.js before using the contact form.';
-    formNote.style.color = '#b3402f';
-    return;
-  }
 
   const name = document.querySelector('#name').value.trim();
   const email = document.querySelector('#email').value.trim();
