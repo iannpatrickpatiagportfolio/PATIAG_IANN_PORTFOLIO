@@ -33,13 +33,12 @@ const revealObserver = new IntersectionObserver((entries) => {
       revealObserver.unobserve(entry.target);
     }
   });
-}, { threshold: 0.12 });
+}, { threshold: 0.08 });
 
 document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
 
 const sections = document.querySelectorAll('main section[id]');
 const navItems = document.querySelectorAll('.nav-links a');
-
 const activeSectionObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -49,8 +48,46 @@ const activeSectionObserver = new IntersectionObserver((entries) => {
     }
   });
 }, { rootMargin: '-35% 0px -55% 0px' });
-
 sections.forEach((section) => activeSectionObserver.observe(section));
+
+const filterButtons = document.querySelectorAll('.filter-button');
+const galleryItems = document.querySelectorAll('.gallery-item');
+filterButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const filter = button.dataset.filter;
+    filterButtons.forEach((item) => item.classList.toggle('active', item === button));
+    galleryItems.forEach((item) => {
+      const categories = item.dataset.category.split(' ');
+      item.hidden = filter !== 'all' && !categories.includes(filter);
+    });
+  });
+});
+
+const lightbox = document.querySelector('#lightbox');
+const lightboxImage = document.querySelector('#lightbox-image');
+const lightboxTitle = document.querySelector('#lightbox-title');
+const lightboxMeta = document.querySelector('#lightbox-meta');
+const lightboxClose = document.querySelector('.lightbox-close');
+
+document.querySelectorAll('.lightbox-trigger').forEach((trigger) => {
+  trigger.addEventListener('click', () => {
+    lightboxImage.src = trigger.dataset.src;
+    lightboxImage.alt = trigger.querySelector('img')?.alt || trigger.dataset.title;
+    lightboxTitle.textContent = trigger.dataset.title;
+    lightboxMeta.textContent = trigger.dataset.meta;
+    lightbox.showModal();
+  });
+});
+
+lightboxClose.addEventListener('click', () => lightbox.close());
+lightbox.addEventListener('click', (event) => {
+  const rect = lightbox.getBoundingClientRect();
+  const isOutside = event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom;
+  if (isOutside) lightbox.close();
+});
+lightbox.addEventListener('close', () => {
+  lightboxImage.src = '';
+});
 
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
